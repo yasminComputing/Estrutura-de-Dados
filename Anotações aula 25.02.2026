@@ -1,0 +1,11 @@
+Estruturas de Dados Físicas: são estruturas de armazenamento de dados em memória principal. São dependentes da linguagem de programação
+    Pilhas (Stack): inserção, 
+    Filas (Queue): inserção,remover,estaVazio (isEmpty),size ou Count. -> 
+    Listas (Llist): inserção, pesquisar (contains ou in), atualizar(set), deletar(remove ou delete), sizer ou count ou len, estaVazio (isEmpty). -> ORDENAÇÃO
+  
+    
+
+Estruturas de Dados Abstratas: são algoritmos com operações específicas (inserir, pesquisar, atualizar, deletar) para melhor gestão da memória. Por serem algoritmos, são independentes de linguagem
+        Árvore (Tree): inserir (add),pesquisar (contains),atualizar(set),deletar(remove). -> ARMAZENA PARA BUSCA EFICAZ
+        Grafo(Graph): inserir (add), pesquisar (contains, atualizar (set), deletar (remove). -> ROTEAMENTO OU PERCURSO
+
