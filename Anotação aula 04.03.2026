@@ -39,7 +39,7 @@ Algoritmos de gestão de memória: guardar / armazenar e buscar / pesquisar da m
                   vetor = [5,9,7,2,5]
                   TAM = 5;
 
-                 - Usando C
+- Usando C
                           int numero = 5;
                           int encontrado = false;
                           for(int i = 0; i < TAM; i++){
@@ -53,16 +53,16 @@ Algoritmos de gestão de memória: guardar / armazenar e buscar / pesquisar da m
                           }else{
                             printf("Número NÃO encontrado!");
                           }
-
-                    - Usando Python
+____________________________________________________________________________________________
+- Usando Python
                           int vetor = [5,9,7,2,5]
                           int numero = 5
                           if numero in vetor:
                               print("Encontrado")
                           else:
                               print("Não encontrado")
-
-                    - Usando Java
+___________________________________________________________________________________________
+- Usando Java
                            int[] vetor = new int[5,9,7,2,5]
                            int numero = 5;
                            if (vetor.contains(numero)){
@@ -70,4 +70,12 @@ Algoritmos de gestão de memória: guardar / armazenar e buscar / pesquisar da m
                            }else{
                               System.out.println("Não encontrado!");
                            }
-                           
+__________________________________________________________________________________________
+ - Usando C# 
+                           int[] vetor = new int[5,9,7,2,5]
+                           int numero = 5;
+                           if (vetor.Contains(numero)){
+                            Console.WriteLine("Encontrado!");
+                           }else{
+                              Console.WriteLine("Não encontrado!");
+                           }
