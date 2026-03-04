@@ -1,0 +1,73 @@
+Estrutura de dados
+Físicas: variáveis das linguagens de programação : int, float, char , string, vetores, matrizes,...
+Abstratas: 
+     - Lista
+            - C++       - vector
+            - Java      - List, ArrayList, LinkedList
+            - C#        - List, ArrayList
+            - Python    - List
+     - Pilha
+     - Fila
+     - Árvore
+     - Grafos
+Algoritmos de gestão de memória: guardar / armazenar e buscar / pesquisar da melhor forma possível (eficiência)
+        - operações clássicas:
+          - inserir
+                - C++       - push_back()
+                - Java      - add()
+                - C#        - Add()
+                - Python    - append()
+
+          - remover: pela posição ou pelo elemento
+                - C++       - pop_back() ou erase()
+                - Java      - remove()
+                - C#        - Remove()
+                - Python    - remove()
+
+          - verifica tamanho da estrutura
+                - C++       - size()
+                - Java      - size()
+                - C#        - Count()
+                - Python    - len()
+
+           - se está vazia
+
+                  - se o tamanhjo for igual a ZERO
+                  - algumas linguagem tem função para usar empty() ou isEmpty()
+
+          - localizar
+                  vetor = [5,9,7,2,5]
+                  TAM = 5;
+
+                 - Usando C
+                          int numero = 5;
+                          int encontrado = false;
+                          for(int i = 0; i < TAM; i++){
+                              if (numero == vetor[i]){
+                                encontrado = true;
+                                break;
+                              }
+                          }
+                          if (encontrado){
+                            printf("Número encontrado!");
+                          }else{
+                            printf("Número NÃO encontrado!");
+                          }
+
+                    - Usando Python
+                          int vetor = [5,9,7,2,5]
+                          int numero = 5
+                          if numero in vetor:
+                              print("Encontrado")
+                          else:
+                              print("Não encontrado")
+
+                    - Usando Java
+                           int[] vetor = new int[5,9,7,2,5]
+                           int numero = 5;
+                           if (vetor.contains(numero)){
+                            System.out.println("Encontrado!");
+                           }else{
+                              System.out.println("Não encontrado!");
+                           }
+                           
