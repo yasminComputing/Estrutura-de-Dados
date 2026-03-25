@@ -21,15 +21,20 @@ a outras listas.
 especialmente no início ou no meio da lista, pois não é necessário mover todos os elementos como no ArraysList. No entanto, 
 acesso por índice é mais lento, pois o programa precisa percorrer a lista desdo o começo até encontrar a posição desejada.
 
-## Tabela de quando deve usar as lista
-|----------------------------------------------------------------------------------------------------------------------------------------------|
-|Estrutura	 |Usar quando															 			|Evitar usar quando																																|
-----------------------------------------------------------------------------------------------------------------------------------------------|
-|List				 |Usado como tipo em todas as listas						| 																																								|
-----------------------------------------------------------------------------------------------------------------------------------------------|
-|ArrayList	 |Precisar de acesso rápido											|Listas com mais leituras do que alterações	Muitas inserções ou remoções na lista |
-----------------------------------------------------------------------------------------------------------------------------------------------|
-|LinkedList	 |Muitas inserções e remoções										|Trabalhar como fila ou pilha	Precisa de acesso frequente por índice							|
-----------------------------------------------------------------------------------------------------------------------------------------------|
-|Vector			 |Quando precisa ser sincronizado (multi-thread)|Precisa de acesso rápido ou uso geral																						|
-----------------------------------------------------------------------------------------------------------------------------------------------|
+## Quando deve usar as listas: 
+													 																																		
+List 
+        Usado como tipo em todas as listas
+
+ArrayList
+        Usar: Precisar de acesso rápido e Listas com mais leituras do que alterações-
+        Não usar: Muitas inserções ou remoções na lista 
+
+LinkedList 
+        Usar: Muitas inserções e remoções e Trabalhar como fila ou pilha 
+        Não usar: quando precisa de acesso frequente por índice,pois o percorre toda a lista	
+
+Vector	
+        Usar: Quando precisa ser sincronizado (multi-thread) 
+        Não usar: Precisa de acesso rápido ou uso geral																						
+
