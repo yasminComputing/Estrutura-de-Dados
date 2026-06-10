@@ -58,15 +58,6 @@ public class Main {
 
 
 
-        /***
-         * DESAFIO mapa.csv
-         * onde vai ser carregado o mapa 
-         * Fazer uma classe:
-         * -  ler o csv 
-         * - Adiociosse os vertices localizados na lista de vertices (sem DUPLICAÇÃO)
-         * O primeiro é a origem, segundo é o destino. E usar o split (",")
-         * e depois vertices.sort (para ordenar)
-         * 
-         */
+    
     }
 }
