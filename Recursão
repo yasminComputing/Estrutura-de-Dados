@@ -1,0 +1,4 @@
+Recursão é um recurso computacional de programação que substitui as instruções (for-while). Toda repetição obedece 3 ponto:
+      - A: inicialização da variável de controle
+      - B: teste de parada com a variável de controle
+      - C: transformação da variável de controle
