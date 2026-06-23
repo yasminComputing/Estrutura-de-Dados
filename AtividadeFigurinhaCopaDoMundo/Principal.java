@@ -76,7 +76,7 @@ public class Principal {
                 case 3:
                         System.out.println("3- Cadastrar Figuras Desejadas Pessoais");
 
-                        System.out.println("Número da seleção desejada: ");
+                        System.out.println("Nome da seleção desejada: ");
                         String nomeD = sc.nextLine();
 
                         System.out.println("Número da figura: ");
@@ -99,7 +99,7 @@ public class Principal {
                         Figura figuraDesejada = new Figura(nomeD,numeroD,descricaoD,quantidadeD,raroD);
 
                         if(arvoreDesejadasPessoais.add(figuraDesejada)){
-                            Arquivos.salvarArquivo(figuraDesejada,"figura_desejadas_pessoais.csv");
+                            Arquivos.salvarArquivo(figuraDesejada,"figuras_desejadas_pessoais.csv");
                             System.out.println("Figura cadastrada com sucesso!");
                         }else{
                             System.out.println("Figura já existente!");
@@ -130,6 +130,7 @@ public class Principal {
                             if(arvoreDesejadasPessoais.contains(repetida)){
                                 System.out.println(repetida);
                                 encontrado = true;
+                                System.out.println("Figuras carregadas!");
                             } 
 
                         }
